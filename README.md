@@ -18,7 +18,7 @@
 <h2 align="center">:rocket: Projetos Desenvolvidos :rocket:</h2>
 
 <details>
-  <summary>Em Conatrução</summary>
+  <summary>Em Construção</summary>
   <p>Um projeto de uma linda galeria de aves, a galeria conta com opção de filtrar por nomes.</p>
   <p align="center"><img src="" width="800" alt="Feathered Friends"></p>
   <p align="center"><a href="">Link do projeto</a></p>
