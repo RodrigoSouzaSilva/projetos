@@ -1,0 +1,142 @@
+:root{
+    --orange: #D2872C;
+    --gray: #766F68;
+}
+
+*{
+    padding: 0;
+    margin: 0;  
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+nav{
+    /* border: 1px solid black; */
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+
+ ul li{
+    display: inline-block;
+}
+
+ ul li a{
+    text-decoration: none;
+    margin-left: 15px;
+    color: #000;
+}
+
+h1{
+    color: var(--orange);
+}
+
+.icone{
+    display: none;
+}
+
+section{
+    /* border: 1px solid blue; */
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    width: 70vw;
+    height: 55vh;
+
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vh;
+    position: relative;
+    left: 8vw;
+    top: -8vh;
+}
+
+.texto h1{
+    font-size: 4vw;
+    color: var(--gray);
+}
+
+.texto p{
+    color: var(--gray);
+    font-size: 1.5rem;
+}
+
+.texto button{
+    background-color: var(--orange);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+    width: 50%;
+    font-size: 1.5rem;
+    padding: 10px 0;
+}
+
+@media (max-width:600px){
+    .icone{
+        display: block;
+        font-size: 1.5em;
+    }
+
+    .menu-aberto ul{
+
+        background-color: var(--gray);
+        padding: 30px;
+        position: relative;
+        position: fixed;
+        top: 90px;
+        right: 0px;
+        animation: ease-out 1s;
+        
+    }
+
+    ul{
+        display: none;
+    }
+
+    section{
+        flex-direction: column;
+    }
+
+    .texto h1{
+        font-size: 7.5vw;
+    }
+
+    .imagem{
+        order: 1;
+    }
+
+    img{
+        height: 30vh;
+    }
+
+    .texto{
+        order: 2;
+        position: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 80vw;
+    }
+
+    p{
+        margin: 15px;
+    }
+
+    
+}
