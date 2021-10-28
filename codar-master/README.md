@@ -55,6 +55,7 @@ CSS
 # Dicas
 ## Cores:
 Vermelho: #D6000D
+Cinza: rgb(220, 220, 220)
 
 ## Modelo:
 O modelo está disponível na pasta `./design`<br>
@@ -113,7 +114,8 @@ icone:
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
-<i class="fas fa-check-circle"></i> - check
-<i class="fab fa-facebook-square"></i> - face
-<i class="fab fa-twitter-square"></i> - twitter
-<i class="fab fa-instagram"></i> - instagram
+<i class="fas fa-check-circle"></i>     - check
+<i class="fas fa-circle"></i>           - circulo
+<i class="fab fa-facebook-square"></i>  - face
+<i class="fab fa-twitter-square"></i>   - twitter
+<i class="fab fa-instagram"></i>        - instagram
